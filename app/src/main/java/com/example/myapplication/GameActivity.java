@@ -20,7 +20,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     private Button btna1,btan2,btna3,btna4,btnquit;
     private TextView tvquistion;
     private TextView tvpoint,tvgameover,tvquistionnumber;
-    private Collection collection;
+    private collction2 collection;
     private Question currentquestion;
     private Fbmodule fbmodule;
     private int points=0;
@@ -41,7 +41,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
 
         tvquistionnumber=findViewById(R.id.tvQuestionNumber);
-        collection=new Collection();
+        collection=new collction2();
         tvquistion=findViewById(R.id.tvQuestion);
         btna1=findViewById(R.id.btna1);
         btan2=findViewById(R.id.btna2);
